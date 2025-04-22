@@ -73,6 +73,7 @@ include 'config.php';
       <td>'.$email.'</td>
       <td>'.$address.'</td>
       <td>
+        <a href="profile.php?id='.$id.'" class="btn btn-info">Profile</a>
         <a href="edit.php?id='.$id.'" class="btn btn-primary">Edit</a>
         <a href="delete.php?id='.$id.'" class="btn btn-danger">Delete</a>
       </td>
